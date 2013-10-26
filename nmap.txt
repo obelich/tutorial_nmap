@@ -525,13 +525,43 @@ en la referencia {VSCAN}.
 [0x04: Scripting con NSE]
 
 nmap dejó de ser una simple herramienta para escanear puertos hace
-tiempo, y se convirtió en todo
+tiempo, y se convirtió en toda una plataforma para explorar redes,
+máquinas y servicios. Esto a raíz de la introducción del NSE (nmap
+scripting engine), que permite la extensión de nmap con programas en
+Lua. Ver {NSE}.
 
 
 [0x05: Entendiendo TCP]
 
+[:TBD:]
+
 
 [0x06: Entendiendo UDP]
+
+[:TBD:]
+
+
+[0x07: Opciones útiles]
+
+i)    -A: realiza un escaneo total del sistema. Para mejores resultados
+  ejecutar con privilegios.
+ii)   -O: realiza pruebas que permiten detectar la versión del sistema
+  operativo.
+iii)  -iL: lee la lista de blancos de un archivo, útil para realizar
+  un escaneo a varios bloques que no guardan una relación lógica
+  entre sí.
+iv)   -sn: Deshabilita el escaneo de puertos.
+v)    -sV: Habilita la detección de versiones usando la base de datos de
+  versiones.
+vi)   -Pn: Deshabilita la detección de máquinas con ping. Útil cuando
+  dichas máquinas o redes filtran el tráfico ICMP.
+vii)  -n: Deshabilita la resolución inversa DNS. Es útil cuando se
+  quiere obtener información detallada de un blanco, pero para
+  escaneos rápidos, puede entorpecer.
+viii) -F: Realiza un escaneo rápido de los puertos más comunes,
+  usualmente se utiliza para determinar si vale la pena seguir
+  escaneando.
+
 
 
 [0xff: Referencias]
@@ -553,3 +583,5 @@ tiempo, y se convirtió en todo
   <http://www.networkuptime.com/nmap/index.shtml>
 {NMAP-BT}: Referencia de nmap en inglés
   <http://nmap.org/bennieston-tutorial/>
+{NSE}: Referencia de NSE
+  <http://nmap.org/book/nse.html>
