@@ -549,6 +549,7 @@ tiempo, y se convirtió en todo
   <http://techno-fandom.org/~hobbit/>
 {ANTIREZ}: Autor de hping3 y de redis!
   <http://antirez.com/>
-
-  http://www.networkuptime.com/nmap/index.shtml
-  http://nmap.org/bennieston-tutorial/
+{NMAP-NU}: Referencia de nmap en inglés
+  <http://www.networkuptime.com/nmap/index.shtml>
+{NMAP-BT}: Referencia de nmap en inglés
+  <http://nmap.org/bennieston-tutorial/>
