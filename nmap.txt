@@ -530,6 +530,13 @@ máquinas y servicios. Esto a raíz de la introducción del NSE (nmap
 scripting engine), que permite la extensión de nmap con programas en
 Lua. Ver {NSE}.
 
+<Revisar escaneos muestras: new-localhost.nmap y localhost.nmap>
+
+Para ejecutar scripts durante el escaneo, se utiliza la opción de
+-sC. Es útil cuando se combina con -sV.
+
+[:TBD:]
+
 
 [0x05: Entendiendo TCP]
 
@@ -562,6 +569,9 @@ viii) -F: Realiza un escaneo rápido de los puertos más comunes,
   usualmente se utiliza para determinar si vale la pena seguir
   escaneando.
 
+a) presionar d/D mientras se ejecuta el escaneo, para mayor
+  información de depuración.
+b) presionar v/V para información detallada del escaneo.
 
 
 [0xff: Referencias]
