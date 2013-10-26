@@ -538,7 +538,7 @@ tiempo, y se convirtió en todo
 
 {IPRANGE}: Solo descárguenlo, póngalo en algún punto en su PATH, y
   aplíquenle un chmod +x iprange.
-  <https://raw.github.com/dualbus/myscripts/master/iprange>
+  <https://raw.github.com/dualbus/tutorial_nmap/master/iprange>
 {HKM}: Vulnerabilidad en módem tg582n.
   <http://www.hakim.ws/2013/01/puerta-trasera-en-technicolor-tg582n/>
 {VSCAN}: En inglés, escribiendo reglas para determinar versiones.
